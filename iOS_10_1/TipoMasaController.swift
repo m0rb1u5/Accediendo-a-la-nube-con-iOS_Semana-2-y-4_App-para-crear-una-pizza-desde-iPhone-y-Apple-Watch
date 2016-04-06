@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TipoMasaController.swift
 //  iOS_10_1
 //
 //  Created by Juan Carlos Carbajal Ipenza on 5/04/16.
@@ -8,10 +8,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TipoMasaController: UIViewController {
+    var tamanoPizza: String? = nil
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title="Tamaño de la Pizza"
+        self.title="Tipo de Masa"
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -20,8 +22,8 @@ class ViewController: UIViewController {
         let boton = sender as! UIButton
         let resultado: String = boton.titleLabel!.text!
         print(resultado)
-        let sigVista = segue.destinationViewController as! TipoMasaController
-        sigVista.tamanoPizza = resultado
+        let sigVista = segue.destinationViewController as! TipoQuesoController
+        sigVista.tamanoPizza = self.tamanoPizza
+        sigVista.tipoMasa = resultado
     }
 }
-

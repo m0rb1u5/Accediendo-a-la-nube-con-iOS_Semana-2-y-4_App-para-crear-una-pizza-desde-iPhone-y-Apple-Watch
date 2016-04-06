@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94137C6E1CB4E644000D7AE8 /* ConfirmacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94137C6D1CB4E644000D7AE8 /* ConfirmacionController.swift */; };
 		943D5A0D1CB3831500DF7E2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D5A0C1CB3831500DF7E2E /* AppDelegate.swift */; };
 		943D5A0F1CB3831500DF7E2E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D5A0E1CB3831500DF7E2E /* ViewController.swift */; };
 		943D5A121CB3831500DF7E2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D5A101CB3831500DF7E2E /* Main.storyboard */; };
 		943D5A141CB3831600DF7E2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 943D5A131CB3831600DF7E2E /* Assets.xcassets */; };
 		943D5A171CB3831600DF7E2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 943D5A151CB3831600DF7E2E /* LaunchScreen.storyboard */; };
+		943D5A1F1CB39F5A00DF7E2E /* TipoMasaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D5A1E1CB39F5A00DF7E2E /* TipoMasaController.swift */; };
+		943D5A271CB4C1D400DF7E2E /* IngredientesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D5A261CB4C1D400DF7E2E /* IngredientesController.swift */; };
+		943D5A291CB4C1ED00DF7E2E /* TipoQuesoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943D5A281CB4C1ED00DF7E2E /* TipoQuesoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		94137C6D1CB4E644000D7AE8 /* ConfirmacionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionController.swift; sourceTree = "<group>"; };
 		943D5A091CB3831500DF7E2E /* iOS_10_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_10_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		943D5A0C1CB3831500DF7E2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		943D5A0E1CB3831500DF7E2E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		943D5A131CB3831600DF7E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		943D5A161CB3831600DF7E2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		943D5A181CB3831600DF7E2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		943D5A1E1CB39F5A00DF7E2E /* TipoMasaController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaController.swift; sourceTree = "<group>"; };
+		943D5A261CB4C1D400DF7E2E /* IngredientesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesController.swift; sourceTree = "<group>"; };
+		943D5A281CB4C1ED00DF7E2E /* TipoQuesoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,10 @@
 			children = (
 				943D5A0C1CB3831500DF7E2E /* AppDelegate.swift */,
 				943D5A0E1CB3831500DF7E2E /* ViewController.swift */,
+				943D5A1E1CB39F5A00DF7E2E /* TipoMasaController.swift */,
+				943D5A281CB4C1ED00DF7E2E /* TipoQuesoController.swift */,
+				943D5A261CB4C1D400DF7E2E /* IngredientesController.swift */,
+				94137C6D1CB4E644000D7AE8 /* ConfirmacionController.swift */,
 				943D5A101CB3831500DF7E2E /* Main.storyboard */,
 				943D5A131CB3831600DF7E2E /* Assets.xcassets */,
 				943D5A151CB3831600DF7E2E /* LaunchScreen.storyboard */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				943D5A271CB4C1D400DF7E2E /* IngredientesController.swift in Sources */,
+				943D5A1F1CB39F5A00DF7E2E /* TipoMasaController.swift in Sources */,
+				943D5A291CB4C1ED00DF7E2E /* TipoQuesoController.swift in Sources */,
 				943D5A0F1CB3831500DF7E2E /* ViewController.swift in Sources */,
 				943D5A0D1CB3831500DF7E2E /* AppDelegate.swift in Sources */,
+				94137C6E1CB4E644000D7AE8 /* ConfirmacionController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +300,7 @@
 				943D5A1D1CB3831600DF7E2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
