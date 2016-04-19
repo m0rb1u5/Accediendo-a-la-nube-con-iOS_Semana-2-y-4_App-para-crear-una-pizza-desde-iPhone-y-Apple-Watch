@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10102" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10080"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10030"/>
+    </dependencies>
+    <scenes>
+        <!--idTamano-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="idTamano" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="iOS_15_1" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="jjd-2G-zbI">
+                            <items>
+                                <button width="1" alignment="left" title="Chica" id="00m-Wr-3QD">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarChica" destination="AgC-eL-Hgc" id="OAg-gO-7MW"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Mediana" id="NN8-15-uLr">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarMediana" destination="AgC-eL-Hgc" id="bAR-wq-P1X"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Grande" id="TxK-ih-53q">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarGrande" destination="AgC-eL-Hgc" id="GD4-A0-lzS"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="323" y="298"/>
+        </scene>
+        <!--idMasa-->
+        <scene sceneID="nvQ-Vd-SdE">
+            <objects>
+                <controller identifier="idMasa" id="rer-Hu-4k0" customClass="TipoMasaWKController" customModule="iOS_15_1_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="hKY-YS-4zY">
+                            <items>
+                                <button width="1" alignment="left" title="Delgada" id="CkL-22-x0b">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarDelgada" destination="rer-Hu-4k0" id="TZz-ZO-Bfs"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Crujiente" id="kqW-Py-Ahy">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarCrujiente" destination="rer-Hu-4k0" id="ELP-5A-L1P"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Gruesa" id="IDX-CY-db8">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarGruesa" destination="rer-Hu-4k0" id="U2q-1H-DxF"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="583" y="298"/>
+        </scene>
+        <!--idQueso-->
+        <scene sceneID="45Q-Gd-8FA">
+            <objects>
+                <controller identifier="idQueso" id="cLa-Wr-hcD" customClass="TipoQuesoWKController" customModule="iOS_15_1_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="r6e-9C-VDe">
+                            <items>
+                                <button width="1" alignment="left" title="Mozarela" id="e3u-tN-ODJ">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarMozarela" destination="cLa-Wr-hcD" id="dAc-4d-5mS"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Cheddar" id="x5Z-bf-0m6">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarCheddar" destination="cLa-Wr-hcD" id="CAT-0C-4A2"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Parmesano" id="xyQ-57-dCx">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarParmesano" destination="cLa-Wr-hcD" id="dgD-Ab-ZJ1"/>
+                                    </connections>
+                                </button>
+                                <button width="1" alignment="left" title="Sin queso" id="kbr-nD-8mN">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarSinQueso" destination="cLa-Wr-hcD" id="bPh-mc-OtR"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="834" y="303.5"/>
+        </scene>
+        <!--idConfirmacion-->
+        <scene sceneID="wFw-Nm-QEe">
+            <objects>
+                <controller identifier="idConfirmacion" id="IU3-CI-qbU" customClass="ConfirmacionWKController" customModule="iOS_15_1_Extension">
+                    <items>
+                        <label width="1" alignment="left" text="Tamaño:" textAlignment="left" id="buS-Qi-NbG"/>
+                        <label width="1" alignment="left" textAlignment="right" id="QU7-po-ENP">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <label width="1" alignment="left" text="Tipo de masa:" textAlignment="left" id="YML-MX-7d4"/>
+                        <label width="1" alignment="left" textAlignment="right" id="rNy-M1-glN">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <label width="1" alignment="left" text="Tipo de queso:" textAlignment="left" id="n2k-Ep-hxh"/>
+                        <label width="1" alignment="left" textAlignment="right" id="rP0-eU-0jd">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <label width="1" alignment="left" text="Ingredientes:" textAlignment="left" id="RrZ-cR-1ve"/>
+                        <label width="1" alignment="left" textAlignment="right" numberOfLines="3" id="hvF-mA-no1">
+                            <color key="textColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleCaption2"/>
+                        </label>
+                        <separator alignment="left" id="uY9-4y-jWa">
+                            <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <button width="1" alignment="left" title="Confirmar" id="gH0-Ct-xcZ">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="confirmar" destination="IU3-CI-qbU" id="HS2-Tr-QHa"/>
+                            </connections>
+                        </button>
+                        <button width="1" alignment="left" title="Cambiar Selección" id="rTb-lg-6hU">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <segue destination="AgC-eL-Hgc" kind="push" id="Mxe-wr-pZP"/>
+                            </connections>
+                        </button>
+                        <label width="1" alignment="left" text="Orden enviada a la cocina" textAlignment="center" numberOfLines="2" id="z8c-Cu-XKr"/>
+                    </items>
+                    <connections>
+                        <outlet property="cambiarSeleccionButton" destination="rTb-lg-6hU" id="XXV-XI-Hic"/>
+                        <outlet property="cocina" destination="z8c-Cu-XKr" id="GQF-IA-YXR"/>
+                        <outlet property="confirmarButton" destination="gH0-Ct-xcZ" id="uIZ-xK-WgY"/>
+                        <outlet property="ingredientes" destination="hvF-mA-no1" id="co7-8C-r3B"/>
+                        <outlet property="masa" destination="rNy-M1-glN" id="wU9-FA-flK"/>
+                        <outlet property="queso" destination="rP0-eU-0jd" id="s0B-GS-etA"/>
+                        <outlet property="tamano" destination="QU7-po-ENP" id="CNN-PV-rIc"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="583" y="647"/>
+        </scene>
+        <!--idIngredientes-->
+        <scene sceneID="65D-Av-9KP">
+            <objects>
+                <controller identifier="idIngredientes" id="QVo-AO-w5m" customClass="IngredientesWKController" customModule="iOS_15_1_Extension">
+                    <items>
+                        <group width="1" alignment="left" layout="vertical" id="YAl-Jl-8uF">
+                            <items>
+                                <switch width="1" alignment="left" title="Jamón" id="p1o-Xn-7DW">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarJamon:" destination="QVo-AO-w5m" id="cwA-ol-pav"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Pepperoni" id="bNn-JC-zkO">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarPepperoni:" destination="QVo-AO-w5m" id="YXs-hV-HQ5"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Pavo" id="b6e-GM-hr1">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarPavo:" destination="QVo-AO-w5m" id="qmX-UY-X8i"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Salchicha" id="HOg-jE-71j">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarSalchicha:" destination="QVo-AO-w5m" id="ldn-hC-i3E"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Aceituna" id="mpr-hm-qrN">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarAceituna:" destination="QVo-AO-w5m" id="Jwy-pJ-dFr"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Cebolla" id="UUt-tm-njK">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarCebolla:" destination="QVo-AO-w5m" id="4Ls-ln-XCg"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Pimiento" id="C0i-Ib-THl">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarPimiento:" destination="QVo-AO-w5m" id="blO-cB-e8f"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Piña" id="i9S-pI-11w">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarPina:" destination="QVo-AO-w5m" id="3Wb-SC-7CG"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Anchoa" id="hNz-ey-kPw">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarAnchoa:" destination="QVo-AO-w5m" id="8je-WC-zDg"/>
+                                    </connections>
+                                </switch>
+                                <switch width="1" alignment="left" title="Carne" id="nip-EA-3NA">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <connections>
+                                        <action selector="guardarCarne:" destination="QVo-AO-w5m" id="W6a-Ak-cvN"/>
+                                    </connections>
+                                </switch>
+                            </items>
+                        </group>
+                        <separator alignment="left" id="BSG-Ih-wNH">
+                            <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </separator>
+                        <button width="1" alignment="left" title="Continuar" id="w6E-69-0LW">
+                            <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="continuar" destination="QVo-AO-w5m" id="SVW-UG-Sd4"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="839" y="755.5"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+</document>
