@@ -27,6 +27,8 @@ La app no podrá confirmar una orden de pizza si el usuario no realizó alguna s
 
 El proyecto deberá estar en GitHub
 
+![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out1.gif)
+
 - - - -
 # App para crear una pizza desde Apple Watch
 Tarea "App para crear una pizza desde Apple Watch" del curso "Interfaz de usuario en iOS" que se lleva en el portal Coursera.
@@ -53,6 +55,8 @@ Construir una aplicación en Swift que se pueda correr en el simulador del Apple
 * La app no podrá confirmar una orden de pizza si el usuario no realizó alguna selección en las etapas de configuración de la pizza.
 
 * El proyecto deberá estar en GitHub
+
+![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out2.gif)
 
 ***
 Juan Carlos Carbajal Ipenza
