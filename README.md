@@ -28,7 +28,7 @@ La app no podrá confirmar una orden de pizza si el usuario no realizó alguna s
 El proyecto deberá estar en GitHub
 
 ## Criterios de revisión
-Asegúrate de cumplir con las especificaciones funionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
+Asegúrate de cumplir con las especificaciones funcionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
 ## Resultado
 Se muestra la pantalla del iPhone 6s al ejecutar el programa:
 
