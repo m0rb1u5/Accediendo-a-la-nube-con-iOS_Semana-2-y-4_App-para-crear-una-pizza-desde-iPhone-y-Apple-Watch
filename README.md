@@ -7,7 +7,7 @@ Construir una aplicación multivista en Swift que se pueda correr en el simulado
 
 La creación de una pizza estará compuesta por al menos 4 etapas de selección y una etapa de confirmación
 
-Las estapas de selección serán al menos 4: tamaño, tipo de masa, tipo de queso, ingredientes. Existe la posibilidad de agregar una o dos etapas extras.
+Las etapas de selección serán al menos 4: tamaño, tipo de masa, tipo de queso, ingredientes. Existe la posibilidad de agregar una o dos etapas extras.
 
 El usuario podrá moverse hacia delante o hacia atrás en la selección de cada etapa.
 
@@ -26,6 +26,11 @@ Etapa de confirmación. Al final de las 4 etapas mínimas vendrá una etapa fina
 La app no podrá confirmar una orden de pizza si el usuario no realizó alguna selección en las etapas de configuración de la pizza.
 
 El proyecto deberá estar en GitHub
+
+## Criterios de revisión
+Asegúrate de cumplir con las especificaciones funionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
+## Resultado
+Se muestra la pantalla del iPhone 6s al ejecutar el programa:
 
 ![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out1.gif)
 
@@ -55,6 +60,11 @@ Construir una aplicación en Swift que se pueda correr en el simulador del Apple
 * La app no podrá confirmar una orden de pizza si el usuario no realizó alguna selección en las etapas de configuración de la pizza.
 
 * El proyecto deberá estar en GitHub
+
+## Criterios de revisión
+Asegúrate de cumplir con las especificaciones funcionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
+## Resultado
+Se muestra la pantalla del Applet Watch - 42mm al ejecutar el programa:
 
 ![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out2.gif)
 
