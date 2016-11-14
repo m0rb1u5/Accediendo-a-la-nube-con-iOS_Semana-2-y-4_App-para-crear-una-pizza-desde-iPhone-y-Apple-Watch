@@ -30,9 +30,9 @@ El proyecto deberá estar en GitHub
 ## Criterios de revisión
 Asegúrate de cumplir con las especificaciones funcionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
 ## Resultado
-Se muestra la pantalla del iPhone 6s al ejecutar el programa:
+Se muestra la pantalla del iPhone 6s al ejecutar el programa (hacer click en la imagen para ver la ejecución):
 
-![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out1.gif)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/LIz73YCWG3s/0.jpg)](https://www.youtube.com/watch?v=LIz73YCWG3s "App para crear una pizza desde iPhone")
 
 - - - -
 # App para crear una pizza desde Apple Watch
@@ -64,9 +64,9 @@ Construir una aplicación en Swift que se pueda correr en el simulador del Apple
 ## Criterios de revisión
 Asegúrate de cumplir con las especificaciones funcionales de la app pero también enfoca tu esfuerzo por crear una app que eventualmente desearías subir al App Store.
 ## Resultado
-Se muestra la pantalla del Applet Watch - 42mm al ejecutar el programa:
+Se muestra la pantalla del Applet Watch - 42mm al ejecutar el programa (hacer click en la imagen para ver la ejecución):
 
-![Alt Text](https://github.com/m0rb1u5/iOS_10_1/raw/master/out2.gif)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/4EWe5DBLnwY/0.jpg)](https://www.youtube.com/watch?v=4EWe5DBLnwY "App para crear una pizza desde Apple Watch")
 
 ***
 Juan Carlos Carbajal Ipenza
